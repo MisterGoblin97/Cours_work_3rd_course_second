@@ -1,0 +1,104 @@
+body {
+    background-color: white;
+    font-family: 'Bellota Text';
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Bellota Text';
+    color: #000000;
+}
+
+a:hover{
+    text-decoration: none;
+    transition: 0.2s;
+    color: white;
+}
+
+.con_name{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.con_name h1{
+    font-size: 70px;
+}
+
+.ceo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.ceo_left, .ceo_right{
+    font-family: 'Bellota Text';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    width: 40%;
+}
+
+.ceo h3{
+    color: #5a5a5a;
+}
+
+.contact p{
+    font-size: 20px;
+}
+
+.contact h2{
+    color: #5a5a5a;
+}
+
+.map{
+    width:100%;
+    height:500px;
+    margin: 0 auto;
+    border: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+    .con_name{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .con_name h1{
+        font-size: 70px;
+    }
+    
+    .ceo{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0px;
+    }
+    
+    .ceo_left, .ceo_right{
+        font-family: 'Bellota Text';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        width: 40%;
+    }
+    
+    .ceo h3{
+        color: #5a5a5a;
+    }
+    
+    .contact p{
+        font-size: 18px;
+    }
+    
+    .contact h2{
+        color: #5a5a5a;
+    }
+    
+    .map{
+        width:100%;
+        height:500px;
+        margin: 0 auto; 
+        border: 0px;
+    }
+}
